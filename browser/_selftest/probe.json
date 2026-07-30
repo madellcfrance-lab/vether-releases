@@ -1,0 +1,10 @@
+{
+  "probe": "vether-releases/browser — controle de fidelite d'octets",
+  "pourquoi": "la signature Ed25519 porte sur les OCTETS BRUTS : un BOM, un newline final, une re-indentation ou une minification tuent le canal",
+  "unicode": "éàüç — ✓ ① é—",
+  "espaces_multiples": "a  b   c    d",
+  "indent": 2,
+  "bom": false,
+  "newline_final": false,
+  "genere_par": "Navigateur/docs/hebergement_update.md (lot C)"
+}

@@ -1,0 +1,7 @@
+# Le canal de mise a jour est signe Ed25519 sur les OCTETS EXACTS du fichier.
+# Toute normalisation de fin de ligne par git (core.autocrlf) invaliderait la
+# signature cote client. On la desactive explicitement pour tout ce qui est servi.
+*.json      -text
+*.sig       -text
+*.exe       -text
+.nojekyll   -text
